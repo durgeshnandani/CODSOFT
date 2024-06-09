@@ -16,6 +16,7 @@ public class GuessTheNumber {
             } else if (user_input == correct_number) {
                 System.out.println("YOU guessed the correct number,BRAVO!");
                 break;
+                
             }
             if (i >= 9) {
                 System.out.format("The number we were gussesing was %d", correct_number);
